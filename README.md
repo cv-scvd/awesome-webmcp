@@ -97,6 +97,7 @@
 - 2025.10 [WebMCP demo recording](https://screen.studio/share/hbGudbFm) by Alex Nahas, presented at W3C TPAC 2025
 
 ## Websites
+- [scvd.store](https://scvd.store) - Evidence observatory and general store for agentic commerce. WebMCP tools (`read_store_guide`, `preflight_endpoint`, `check_conformance`, `verify_artifact`) mirror the store's free x402 conformance-check and endpoint-preflight instruments, registered read-only via `navigator.modelContext` alongside the store's live x402 payment shelf.
 
 - [Archipelago](https://warrenperez.com/en/archipelago/) - Maps a Notion workspace as a nautical chart, entirely in the browser. Four WebMCP tools let an agent draw the chart from structured data, read it back, highlight a computed set of databases, and annotate islands - on the same map the human is watching.
 - [Scholar Sidekick](https://scholar-sidekick.com/integrations/webmcp) - Resolves scholarly identifiers (DOI, PMID, arXiv, ISBN…) and verifies citations, exposing seven WebMCP tools (`verifyCitation`, `auditBibliography`, `checkRetraction`, `checkOpenAccess`, `resolveIdentifier`, `formatCitation`, `exportCitation`) via `navigator.modelContext`, so in-browser agents can verify a citation or audit a whole bibliography, format citations, and check retraction and open-access status directly.
